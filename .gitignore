@@ -1,0 +1,20 @@
+# 运行时数据(含密码哈希、token、用户文件,切勿提交)
+.agent_sessions/
+.userdata/
+*.db
+*.db-shm
+*.db-wal
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# 本地/编辑器/SDD 过程文档
+.comate/
+.idea/
+.vscode/
+*.log
+.DS_Store
